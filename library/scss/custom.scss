@@ -4,8 +4,8 @@ Author: Dan Brown
 
 Stylesheet: Custom Stylesheet
 
-If you really want to customize bootstrap, you should start with 
-custom-variables.less.  
+If you really want to customize bootstrap, you should start with
+custom-variables.less.
 
 custom.less is a WIP
 
@@ -29,8 +29,14 @@ custom.less is a WIP
 
 /* Admin Top Navigation fixes */
 
-body.admin-bar .navbar-fixed-top{ 
-        top: 28px; 
+body.admin-bar .navbar-fixed-top{
+    top: 46px;
+}
+
+@media (min-width: 783px) {
+  body.admin-bar .navbar-fixed-top{
+    top: 28px;
+  }
 }
 
 /* CSS for sample home page */
@@ -285,7 +291,7 @@ and more scalable.
       border-bottom: 1px solid #eeeeee;
     }
 
-		.archive-title { 
+		.archive-title {
       margin-top: 0;
     }
 
